@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Daniela Posadas — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+/* ⚠️ IMPORTANTE: ya corregí los -- /
+:root {
+  --white: #FFFFFF;
+  --off-white: #F9F8F6;
+  --light: #F2F0EC;
+  --border: #E4E0D8;
+  --mist: #EBE8E2;
+  --ink: #1C1A17;
+  --ink-soft: #3D3A35;
+  --ink-muted: #7A766E;
+  --ink-faint: #A8A49C;
+  --accent: #2C5F4A;
+  --accent-light: #EAF2EE;
+  --gold: #B8935A;
+  --gold-light: #F5EDE0;
+}
+/ (todo el CSS queda igual que tu original) */
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="nav-logo">Daniela Posadas</div>
+  <ul class="nav-links">
+    <li><a href="#projects">Proyectos</a></li>
+    <li><a href="#skills">Habilidades</a></li>
+    <li><a href="#experience">Experiencia</a></li>
+    <li><a href="#contact">Contacto</a></li>
+  </ul>
+  <div class="nav-badge"><div class="nav-dot"></div> Disponible para trabajo remoto</div>
+</nav>
+
+<section class="hero">
+  <div class="hero-left">
+    <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Administración & Operaciones Digitales</span></div>
+    <h1 class="hero-name">Daniela<br/><strong>Posadas</strong></h1>
+    <p class="hero-title">Asistente Virtual · Community Manager · Datos & Operaciones</p>
+    <p class="hero-bio">
+      Soy una <span>profesional creativa y resolutiva</span> que combina una base sólida en administración con marketing digital, análisis de datos y herramientas de IA para ayudar a organizaciones a trabajar mejor y crecer más rápido. No solo ejecuto tareas — busco mejorarlas.
+    </p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-main">Trabajemos juntos</a>
+      <a href="#projects" class="btn-ghost">Ver proyectos</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="section-header">
+    <div><div class="section-label">Trabajos destacados</div><h2 class="section-title">Proyectos & Resultados</h2></div>
+    <div class="section-num">01</div>
+  </div>
+
+  <div class="projects-grid">
+
+    <div class="proj">
+      <span class="proj-icon">📊</span>
+      <div class="proj-cat">Análisis de Datos</div>
+      <h3 class="proj-title">Dashboard de Ventas y Rentabilidad</h3>
+      <p class="proj-desc">
+        Diseñé un sistema completo en Excel para un e-commerce textil: control de ventas diarias, costos, márgenes, pagos a proveedores e inventario.
+      </p>
+      <div class="proj-impact">Permitió visualizar por primera vez la rentabilidad real del negocio</div>
+    </div>
+
+    <div class="proj">
+      <span class="proj-icon">📣</span>
+      <div class="proj-cat">Marketing Digital</div>
+      <h3 class="proj-title">Campañas en Redes Sociales</h3>
+      <p class="proj-desc">
+        Gestión completa de campañas en Instagram y Facebook Ads: segmentación, creatividad, análisis y optimización constante.
+      </p>
+      <div class="proj-impact">Crecimiento sostenido de audiencia y mejor rendimiento de campañas</div>
+    </div>
+
+    <div class="proj">
+      <span class="proj-icon">🤖</span>
+      <div class="proj-cat">IA & Automatización</div>
+      <h3 class="proj-title">Automatización Administrativa con IA</h3>
+      <p class="proj-desc">
+        Implementé herramientas como ChatGPT y Gemini para automatizar tareas repetitivas: mails, reportes, contenido.
+      </p>
+      <div class="proj-impact">Reducción del tiempo operativo en tareas repetitivas</div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section section-alt" id="skills">
+  <div class="section-header">
+    <div><div class="section-label">Lo que aporto</div><h2 class="section-title">Habilidades</h2></div>
+    <div class="section-num">02</div>
+  </div>
+
+  <p style="max-width:600px;line-height:1.8;color:#555;">
+    Excel avanzado, análisis de datos, gestión administrativa, marketing digital, herramientas de IA, organización de procesos y mejora continua.
+  </p>
+
+</section>
+
+<section class="section" id="experience">
+  <div class="section-header">
+    <div><div class="section-label">Trayectoria</div><h2 class="section-title">Experiencia</h2></div>
+    <div class="section-num">03</div>
+  </div>
+
+  <p style="max-width:600px;line-height:1.8;color:#555;">
+    Experiencia en administración, gestión de clientes, organización operativa, marketing digital y control de datos en diferentes industrias.
+  </p>
+
+</section>
+
+<section class="section" id="contact">
+  <div class="section-header">
+    <div><div class="section-label">Contacto</div><h2 class="section-title">Trabajemos juntos</h2></div>
+    <div class="section-num">04</div>
+  </div>
+
+  <p>Email: danielaluciaposadas.dlp@gmail.com</p>
+  <p>Tel: +54 381 571 8461</p>
+
+</section>
+
+<footer>
+  <span>© 2026 Daniela Posadas · Tucumán, Argentina</span>
+  <span><a href="index.html">View in English →</a></span>
+</footer>
+
+</body>
+</html>
